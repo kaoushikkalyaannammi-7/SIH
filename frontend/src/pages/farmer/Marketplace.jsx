@@ -15,10 +15,12 @@ const Marketplace = () => {
   const fetchProfits = async () => {
     setLoading(true);
     try {
+      const userLocation = JSON.parse(localStorage.getItem('farmerLocation')) || { state: 'Karnataka', district: 'Tumkur' };
       const res = await axios.post('http://localhost:5000/api/profit/calculate', {
         crop: selectedCrop,
-        expectedYieldTonnesPerHa: 3.6,
-        areaAcres: 1
+        areaAcres: 1,
+        state: userLocation.state,
+        district: userLocation.district
       });
       setProfits(res.data);
     } catch (error) {

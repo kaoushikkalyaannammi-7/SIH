@@ -13,13 +13,9 @@ const CropForecast = ({ location }) => {
       try {
         // Send demo data that ML service expects
         const reqData = {
-          ...location,
-          temperature: 28.5,
-          rainfall: 45.0,
-          ph: 7.2,
-          nitrogen: "Low",
-          phosphorus: "Medium",
-          potassium: "High"
+          state: location.state,
+          district: location.district,
+          season: 'Kharif'
         };
         const res = await axios.post(`http://localhost:5000/api/ml/predict`, reqData);
         setPredictions(res.data.predictions);
@@ -38,13 +34,10 @@ const CropForecast = ({ location }) => {
     setExplanation(null); // reset while loading
     try {
         const reqData = {
-            ...location,
-            temperature: 28.5,
-            rainfall: 45.0,
-            ph: 7.2,
-            nitrogen: "Low",
-            phosphorus: "Medium",
-            potassium: "High"
+            state: location.state,
+            district: location.district,
+            crop: crop.crop,
+            season: 'Kharif'
           };
       const res = await axios.post(`http://localhost:5000/api/ml/explain`, reqData);
       setExplanation(res.data);

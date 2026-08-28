@@ -1,20 +1,30 @@
-// Simulated Data Controller
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const soilDbPath = path.join(__dirname, '../data/soil_db.json');
+let soilDb = {};
+if (fs.existsSync(soilDbPath)) {
+  soilDb = JSON.parse(fs.readFileSync(soilDbPath, 'utf8'));
+}
 
 export const getWeatherData = async (req, res) => {
   const { state, district, village } = req.query;
   
-  // In a real app, you would call OpenWeatherMap or IMD API here using lat/lng
-  // For demo, we simulate a response based on the location.
-  
+  // Real weather info logic would go here
+  // For demo, we supply standard safe context data
   res.json({
     current: {
       temp: 28,
       humidity: 65,
-      rainfall: 0,
+      rainfall: 12,
       description: 'Partly Cloudy'
     },
     forecast: {
-      summary: 'Rainfall is expected to be below normal during the upcoming flowering period.',
+      summary: 'Normal rainfall expected for the coming weeks.',
       alerts: []
     }
   });
@@ -23,14 +33,31 @@ export const getWeatherData = async (req, res) => {
 export const getSoilData = async (req, res) => {
   const { state, district, village } = req.query;
   
-  // Simulate soil data retrieval
-  res.json({
-    type: 'Black Cotton Soil',
-    ph: 7.2,
-    nitrogen: 'Low',
-    phosphorus: 'Medium',
-    potassium: 'High',
-    organic_carbon: '0.5%',
-    note: 'Estimated from available district-level soil data'
-  });
+  const key = `${state}_${district}`.toUpperCase();
+  const data = soilDb[key];
+  
+  if (data) {
+    res.json({
+      type: data.SOIL_Dominant_Soil_Type,
+      ph: data.SOIL_pH,
+      nitrogen: data.SOIL_Nitrogen_kg_per_ha,
+      phosphorus: data.SOIL_Phosphorus_kg_per_ha,
+      potassium: data.SOIL_Potassium_kg_per_ha,
+      organic_carbon: data.SOIL_Organic_Carbon_percent,
+      agro_climatic_zone: data.SOIL_Agro_Climatic_Zone,
+      note: 'Actual regional soil data from training dataset'
+    });
+  } else {
+    // Fallback if not found in dataset
+    res.json({
+      type: 'missing',
+      ph: null,
+      nitrogen: null,
+      phosphorus: null,
+      potassium: null,
+      organic_carbon: null,
+      agro_climatic_zone: 'missing',
+      note: 'Demo fallback data (location not found)'
+    });
+  }
 };

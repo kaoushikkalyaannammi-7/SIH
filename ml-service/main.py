@@ -1,63 +1,127 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import random
+from typing import Optional, List, Dict
+import uvicorn
+from predict import predict_yield, cat_features
+from explain import explain_prediction
+import json
+import logging
+import joblib
+import os
 
-app = FastAPI()
+app = FastAPI(title="Agri ML Service")
+
+# Load candidate crops dynamically from the preprocessor/cat_features
+# It's better to load the unique crops from the dataset
+data_path = os.path.join(os.path.dirname(__file__), "../data/training_ready_dataset.csv")
+try:
+    import pandas as pd
+    df = pd.read_csv(data_path, low_memory=False)
+    candidate_crops = df['Crop'].dropna().unique().tolist()
+except:
+    candidate_crops = ["Rice", "Wheat", "Maize", "Cotton", "Sugarcane"]
 
 class PredictionRequest(BaseModel):
+    crop: Optional[str] = None
     state: str
     district: str
-    temperature: float
-    rainfall: float
-    ph: float
-    nitrogen: str
-    phosphorus: str
-    potassium: str
+    season: str
+    area_acres: Optional[float] = 1.0
+    soil_nitrogen: Optional[float] = None
+    soil_phosphorus: Optional[float] = None
+    soil_potassium: Optional[float] = None
+    soil_organic_carbon: Optional[float] = None
+    soil_ph: Optional[float] = None
+    soil_type: Optional[str] = "missing"
+    agro_climatic_zone: Optional[str] = "missing"
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "service": "ml-service"}
 
 @app.post("/predict")
-def predict_yield(req: PredictionRequest):
-    # Dummy mock predictions for crops based on the requirement
-    # "The ML model must output: expected yield, lower bound, upper bound, confidence"
-    
-    # We will simulate predictions for Rice, Maize, Wheat, Mustard
-    crops = ["Rice", "Maize", "Wheat", "Mustard"]
-    
-    predictions = []
-    for crop in crops:
-        base_yield = random.uniform(1.5, 4.5)
+def predict(req: PredictionRequest):
+    try:
+        crops_to_predict = [req.crop] if req.crop else candidate_crops[:5] # Predict top 5 if none specified
         
-        # Add some variation based on crop type just for realism
-        if crop == "Rice" and req.rainfall > 50:
-            base_yield += 0.5
+        results = []
+        for c in crops_to_predict:
+            input_dict = {
+                'State': req.state,
+                'District': req.district,
+                'Crop': c,
+                'Season': req.season,
+                'SOIL_Nitrogen_kg_per_ha': req.soil_nitrogen,
+                'SOIL_Phosphorus_kg_per_ha': req.soil_phosphorus,
+                'SOIL_Potassium_kg_per_ha': req.soil_potassium,
+                'SOIL_Organic_Carbon_percent': req.soil_organic_carbon,
+                'SOIL_pH': req.soil_ph,
+                'SOIL_Dominant_Soil_Type': req.soil_type,
+                'SOIL_Agro_Climatic_Zone': req.agro_climatic_zone
+            }
             
-        lower_bound = base_yield * 0.85
-        upper_bound = base_yield * 1.15
-        
-        predictions.append({
-            "crop": crop,
-            "expected_yield": round(base_yield, 2),
-            "lower_bound": round(lower_bound, 2),
-            "upper_bound": round(upper_bound, 2),
-            "confidence": random.choice(["HIGH", "MEDIUM", "LOW"])
-        })
-        
-    return {"predictions": predictions}
+            expected, lower, upper, X_processed, df = predict_yield(input_dict)
+            
+            spread = upper - lower
+            margin = spread / max(abs(expected), 0.0001)
+            
+            if margin < 0.20:
+                confidence = "HIGH"
+            elif margin < 0.50:
+                confidence = "MEDIUM"
+            else:
+                confidence = "LOW"
+                
+            results.append({
+                "crop": c,
+                "expected_yield": round(expected, 2),
+                "lower_bound": round(lower, 2),
+                "upper_bound": round(upper, 2),
+                "confidence": confidence,
+                "unit": "Kg per ha"
+            })
+            
+        if req.crop:
+            return results[0]
+        else:
+            return {"predictions": results}
+            
+    except Exception as e:
+        logging.exception("Prediction failed")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/explain")
-def explain_prediction(req: PredictionRequest):
-    # Dummy SHAP-like feature importance explanation
-    # Positive and negative factors
-    return {
-        "crop": "Rice", # usually we'd pass the specific crop to explain
-        "factors": {
-            "positive": [
-                "Favorable rainfall for current growth stage",
-                "Suitable soil pH level (7.2)",
-                "Strong historical yield in this district"
-            ],
-            "negative": [
-                "Nitrogen level is slightly low",
-                "Temperature forecast is above optimal"
-            ]
+def explain(req: PredictionRequest):
+    try:
+        input_dict = {
+            'State': req.state,
+            'District': req.district,
+            'Crop': req.crop,
+            'Season': req.season,
+            'SOIL_Nitrogen_kg_per_ha': req.soil_nitrogen,
+            'SOIL_Phosphorus_kg_per_ha': req.soil_phosphorus,
+            'SOIL_Potassium_kg_per_ha': req.soil_potassium,
+            'SOIL_Organic_Carbon_percent': req.soil_organic_carbon,
+            'SOIL_pH': req.soil_ph,
+            'SOIL_Dominant_Soil_Type': req.soil_type,
+            'SOIL_Agro_Climatic_Zone': req.agro_climatic_zone
         }
-    }
+        
+        _, _, _, X_processed, df = predict_yield(input_dict)
+        contributions = explain_prediction(X_processed)
+        
+        positive = [c['feature'] for c in contributions if c['direction'] == 'positive']
+        negative = [c['feature'] for c in contributions if c['direction'] == 'negative']
+        
+        return {
+            "factors": {
+                "positive": positive,
+                "negative": negative
+            }
+        }
+    except Exception as e:
+        logging.exception("Explanation failed")
+        raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import axios from 'axios';
 import { useAuth } from '../../context/AuthContext';
 import LocationSetup from './LocationSetup';
 import WeatherSoil from './WeatherSoil';
@@ -14,17 +15,22 @@ const MainDashboard = ({ location }) => {
   const [topCrops, setTopCrops] = useState([]);
   
   useEffect(() => {
-    // Simulate fetching Top 3 ranked crops from backend which does ML + Profit ranking
+    // Fetch Top 3 ranked crops from backend which does ML + Profit ranking
     const fetchTop = async () => {
-      // In a real app, this would be a single orchestrator endpoint
-      setTopCrops([
-        { crop: 'Rice', yield: '3.6', range: '3.2-4.0', channel: 'Vendor', buyer: 'Sharma Traders', profit: 48500, prod: 7.2 },
-        { crop: 'Maize', yield: '3.8', range: '3.2-4.3', channel: 'Mandi', buyer: 'Local Mandi', profit: 43200, prod: 7.6 },
-        { crop: 'Mustard', yield: '1.7', range: '1.3-1.9', channel: 'Middleman', buyer: 'Kumar Trading', profit: 39800, prod: 3.4 }
-      ]);
+      try {
+        const reqData = {
+          state: location?.state,
+          district: location?.district,
+          season: 'Kharif'
+        };
+        const res = await axios.post('http://localhost:5000/api/recommendations', reqData);
+        setTopCrops(res.data);
+      } catch(err) {
+        console.error(err);
+      }
     };
-    fetchTop();
-  }, []);
+    if (location) fetchTop();
+  }, [location]);
 
   return (
     <div className="space-y-6">

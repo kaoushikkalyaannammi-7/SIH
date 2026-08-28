@@ -1,0 +1,1118 @@
+{
+  "ANDHRA PRADESH_CHITTOOR": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Coastal",
+    "SOIL_pH": 7.443333333333332,
+    "SOIL_Organic_Carbon_percent": 0.3899999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 217.86666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 16.666666666666668,
+    "SOIL_Potassium_kg_per_ha": 321.96666666666664
+  },
+  "ANDHRA PRADESH_EAST GODAVARI": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Coastal",
+    "SOIL_pH": 7.366666666666667,
+    "SOIL_Organic_Carbon_percent": 0.4833333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 201.66666666666663,
+    "SOIL_Phosphorus_kg_per_ha": 12.4,
+    "SOIL_Potassium_kg_per_ha": 251.76666666666665
+  },
+  "ANDHRA PRADESH_GUNTUR": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Coastal",
+    "SOIL_pH": 7.313333333333333,
+    "SOIL_Organic_Carbon_percent": 0.4566666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 200.73333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 16.566666666666666,
+    "SOIL_Potassium_kg_per_ha": 281.1666666666667
+  },
+  "ARUNACHAL PRADESH_WEST KAMENG": {
+    "SOIL_Dominant_Soil_Type": "Mountain",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 6.21,
+    "SOIL_Organic_Carbon_percent": 1.1766666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 225.6,
+    "SOIL_Phosphorus_kg_per_ha": 11.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 110.13333333333333
+  },
+  "ASSAM_DIBRUGARH": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas / Brahmaputra Valley",
+    "SOIL_pH": 5.5,
+    "SOIL_Organic_Carbon_percent": 0.7233333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 246.0,
+    "SOIL_Phosphorus_kg_per_ha": 11.7,
+    "SOIL_Potassium_kg_per_ha": 160.5
+  },
+  "ASSAM_JORHAT": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas / Brahmaputra Valley",
+    "SOIL_pH": 5.390000000000001,
+    "SOIL_Organic_Carbon_percent": 0.8266666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 237.1,
+    "SOIL_Phosphorus_kg_per_ha": 9.466666666666669,
+    "SOIL_Potassium_kg_per_ha": 148.20000000000002
+  },
+  "ASSAM_NAGAON": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas / Brahmaputra Valley",
+    "SOIL_pH": 5.010000000000001,
+    "SOIL_Organic_Carbon_percent": 0.88,
+    "SOIL_Nitrogen_kg_per_ha": 249.96666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 12.666666666666666,
+    "SOIL_Potassium_kg_per_ha": 175.23333333333335
+  },
+  "BIHAR_BHAGALPUR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 6.923333333333333,
+    "SOIL_Organic_Carbon_percent": 0.4000000000000001,
+    "SOIL_Nitrogen_kg_per_ha": 232.4,
+    "SOIL_Phosphorus_kg_per_ha": 15.366666666666667,
+    "SOIL_Potassium_kg_per_ha": 159.20000000000002
+  },
+  "BIHAR_DARBHANGA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 6.6866666666666665,
+    "SOIL_Organic_Carbon_percent": 0.4266666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 255.16666666666663,
+    "SOIL_Phosphorus_kg_per_ha": 16.7,
+    "SOIL_Potassium_kg_per_ha": 147.4333333333333
+  },
+  "BIHAR_GAYA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 7.12,
+    "SOIL_Organic_Carbon_percent": 0.4966666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 259.6,
+    "SOIL_Phosphorus_kg_per_ha": 10.866666666666664,
+    "SOIL_Potassium_kg_per_ha": 216.36666666666667
+  },
+  "BIHAR_MUZAFFARPUR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 7.373333333333334,
+    "SOIL_Organic_Carbon_percent": 0.4633333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 237.9666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 13.433333333333332,
+    "SOIL_Potassium_kg_per_ha": 197.16666666666663
+  },
+  "BIHAR_PATNA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 7.34,
+    "SOIL_Organic_Carbon_percent": 0.36,
+    "SOIL_Nitrogen_kg_per_ha": 230.9,
+    "SOIL_Phosphorus_kg_per_ha": 17.233333333333334,
+    "SOIL_Potassium_kg_per_ha": 214.76666666666665
+  },
+  "BIHAR_PURNIA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Middle Gangetic Plains",
+    "SOIL_pH": 7.19,
+    "SOIL_Organic_Carbon_percent": 0.4599999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 215.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 13.0,
+    "SOIL_Potassium_kg_per_ha": 165.73333333333332
+  },
+  "CHHATTISGARH_BEMETARA": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 7.31,
+    "SOIL_Organic_Carbon_percent": 0.7599999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 264.8666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 19.03333333333333,
+    "SOIL_Potassium_kg_per_ha": 371.0
+  },
+  "CHHATTISGARH_BILASPUR": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 7.346666666666667,
+    "SOIL_Organic_Carbon_percent": 0.7999999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 241.66666666666663,
+    "SOIL_Phosphorus_kg_per_ha": 13.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 367.3333333333333
+  },
+  "CHHATTISGARH_DURG": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.6000000000000005,
+    "SOIL_Organic_Carbon_percent": 0.73,
+    "SOIL_Nitrogen_kg_per_ha": 209.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 13.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 420.4666666666667
+  },
+  "CHHATTISGARH_KORBA": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.48,
+    "SOIL_Organic_Carbon_percent": 0.7133333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 224.33333333333331,
+    "SOIL_Phosphorus_kg_per_ha": 16.0,
+    "SOIL_Potassium_kg_per_ha": 450.23333333333335
+  },
+  "CHHATTISGARH_RAIGARH": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.843333333333334,
+    "SOIL_Organic_Carbon_percent": 0.6766666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 253.80000000000004,
+    "SOIL_Phosphorus_kg_per_ha": 20.03333333333333,
+    "SOIL_Potassium_kg_per_ha": 392.8666666666666
+  },
+  "CHHATTISGARH_RAIPUR": {
+    "SOIL_Dominant_Soil_Type": "Red & Yellow / Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.8,
+    "SOIL_Organic_Carbon_percent": 0.71,
+    "SOIL_Nitrogen_kg_per_ha": 198.26666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 15.333333333333334,
+    "SOIL_Potassium_kg_per_ha": 383.8666666666666
+  },
+  "GOA_NORTH GOA": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.566666666666666,
+    "SOIL_Organic_Carbon_percent": 0.5666666666666668,
+    "SOIL_Nitrogen_kg_per_ha": 224.73333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 9.333333333333334,
+    "SOIL_Potassium_kg_per_ha": 147.83333333333334
+  },
+  "GOA_SOUTH GOA": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.596666666666667,
+    "SOIL_Organic_Carbon_percent": 0.8300000000000001,
+    "SOIL_Nitrogen_kg_per_ha": 215.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 13.0,
+    "SOIL_Potassium_kg_per_ha": 143.1
+  },
+  "GUJARAT_BHAVNAGAR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Gujarat Plains & Hills",
+    "SOIL_pH": 7.383333333333333,
+    "SOIL_Organic_Carbon_percent": 0.3966666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 176.1,
+    "SOIL_Phosphorus_kg_per_ha": 17.833333333333332,
+    "SOIL_Potassium_kg_per_ha": 256.6
+  },
+  "GUJARAT_RAJKOT": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Gujarat Plains & Hills",
+    "SOIL_pH": 7.36,
+    "SOIL_Organic_Carbon_percent": 0.4599999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 203.73333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 18.433333333333334,
+    "SOIL_Potassium_kg_per_ha": 279.26666666666665
+  },
+  "GUJARAT_SURAT": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Gujarat Plains & Hills",
+    "SOIL_pH": 7.89,
+    "SOIL_Organic_Carbon_percent": 0.4666666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 209.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 16.8,
+    "SOIL_Potassium_kg_per_ha": 337.6
+  },
+  "GUJARAT_VADODARA": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Gujarat Plains & Hills",
+    "SOIL_pH": 7.316666666666666,
+    "SOIL_Organic_Carbon_percent": 0.42,
+    "SOIL_Nitrogen_kg_per_ha": 174.20000000000002,
+    "SOIL_Phosphorus_kg_per_ha": 14.5,
+    "SOIL_Potassium_kg_per_ha": 268.3666666666667
+  },
+  "HARYANA_HISAR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 8.06,
+    "SOIL_Organic_Carbon_percent": 0.3966666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 207.96666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 21.266666666666666,
+    "SOIL_Potassium_kg_per_ha": 215.0666666666667
+  },
+  "HARYANA_KARNAL": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 8.326666666666666,
+    "SOIL_Organic_Carbon_percent": 0.3999999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 264.53333333333336,
+    "SOIL_Phosphorus_kg_per_ha": 14.233333333333334,
+    "SOIL_Potassium_kg_per_ha": 211.7
+  },
+  "HARYANA_KURUKSHETRA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.586666666666666,
+    "SOIL_Organic_Carbon_percent": 0.53,
+    "SOIL_Nitrogen_kg_per_ha": 235.5,
+    "SOIL_Phosphorus_kg_per_ha": 15.466666666666669,
+    "SOIL_Potassium_kg_per_ha": 215.76666666666665
+  },
+  "HARYANA_PANIPAT": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.893333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5566666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 248.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 15.666666666666666,
+    "SOIL_Potassium_kg_per_ha": 204.73333333333332
+  },
+  "HARYANA_ROHTAK": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 8.08,
+    "SOIL_Organic_Carbon_percent": 0.4433333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 244.03333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 19.7,
+    "SOIL_Potassium_kg_per_ha": 280.6
+  },
+  "HARYANA_SIRSA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.866666666666667,
+    "SOIL_Organic_Carbon_percent": 0.5166666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 223.86666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 15.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 219.5
+  },
+  "HIMACHAL PRADESH_KANGRA": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Podzolic",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.026666666666666,
+    "SOIL_Organic_Carbon_percent": 1.1366666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 258.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 11.4,
+    "SOIL_Potassium_kg_per_ha": 243.3
+  },
+  "HIMACHAL PRADESH_KULLU": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Podzolic",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 5.906666666666666,
+    "SOIL_Organic_Carbon_percent": 0.7566666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 250.83333333333331,
+    "SOIL_Phosphorus_kg_per_ha": 13.833333333333334,
+    "SOIL_Potassium_kg_per_ha": 187.23333333333332
+  },
+  "HIMACHAL PRADESH_MANDI": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Podzolic",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.23,
+    "SOIL_Organic_Carbon_percent": 0.8033333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 271.6333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 13.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 209.13333333333333
+  },
+  "HIMACHAL PRADESH_SHIMLA": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Podzolic",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 5.833333333333333,
+    "SOIL_Organic_Carbon_percent": 1.05,
+    "SOIL_Nitrogen_kg_per_ha": 309.96666666666664,
+    "SOIL_Phosphorus_kg_per_ha": 14.166666666666666,
+    "SOIL_Potassium_kg_per_ha": 237.16666666666663
+  },
+  "HIMACHAL PRADESH_SOLAN": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Podzolic",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.036666666666666,
+    "SOIL_Organic_Carbon_percent": 1.07,
+    "SOIL_Nitrogen_kg_per_ha": 257.6333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 16.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 151.86666666666667
+  },
+  "JAMMU AND KASHMIR_ANANTNAG": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Karewa",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.746666666666667,
+    "SOIL_Organic_Carbon_percent": 0.9833333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 238.9333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 15.333333333333334,
+    "SOIL_Potassium_kg_per_ha": 243.03333333333333
+  },
+  "JAMMU AND KASHMIR_BARAMULLA": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Karewa",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 7.053333333333334,
+    "SOIL_Organic_Carbon_percent": 0.92,
+    "SOIL_Nitrogen_kg_per_ha": 235.6,
+    "SOIL_Phosphorus_kg_per_ha": 15.166666666666666,
+    "SOIL_Potassium_kg_per_ha": 230.9
+  },
+  "JAMMU AND KASHMIR_JAMMU": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Karewa",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 7.066666666666666,
+    "SOIL_Organic_Carbon_percent": 1.21,
+    "SOIL_Nitrogen_kg_per_ha": 252.26666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 15.433333333333332,
+    "SOIL_Potassium_kg_per_ha": 225.76666666666665
+  },
+  "JAMMU AND KASHMIR_SRINAGAR": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Karewa",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.463333333333334,
+    "SOIL_Organic_Carbon_percent": 0.96,
+    "SOIL_Nitrogen_kg_per_ha": 217.5666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 15.766666666666667,
+    "SOIL_Potassium_kg_per_ha": 171.4
+  },
+  "JHARKHAND_BOKARO": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 5.683333333333334,
+    "SOIL_Organic_Carbon_percent": 0.4966666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 231.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 12.266666666666666,
+    "SOIL_Potassium_kg_per_ha": 161.93333333333334
+  },
+  "JHARKHAND_DHANBAD": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.05,
+    "SOIL_Organic_Carbon_percent": 0.5266666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 182.4,
+    "SOIL_Phosphorus_kg_per_ha": 10.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 182.26666666666665
+  },
+  "JHARKHAND_HAZARIBAGH": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 6.043333333333333,
+    "SOIL_Organic_Carbon_percent": 0.4133333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 195.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 9.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 146.43333333333334
+  },
+  "JHARKHAND_RANCHI": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills",
+    "SOIL_pH": 5.833333333333333,
+    "SOIL_Organic_Carbon_percent": 0.4033333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 188.7,
+    "SOIL_Phosphorus_kg_per_ha": 7.966666666666666,
+    "SOIL_Potassium_kg_per_ha": 149.29999999999998
+  },
+  "KARNATAKA_BALLARI": {
+    "SOIL_Dominant_Soil_Type": "Red Sandy / Black / Laterite (coastal)",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 6.623333333333334,
+    "SOIL_Organic_Carbon_percent": 0.4833333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 234.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 14.6,
+    "SOIL_Potassium_kg_per_ha": 219.7
+  },
+  "KARNATAKA_BELAGAVI": {
+    "SOIL_Dominant_Soil_Type": "Red Sandy / Black / Laterite (coastal)",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 6.413333333333334,
+    "SOIL_Organic_Carbon_percent": 0.4733333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 184.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 17.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 221.0
+  },
+  "KARNATAKA_BENGALURU URBAN": {
+    "SOIL_Dominant_Soil_Type": "Red Sandy / Black / Laterite (coastal)",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 7.176666666666667,
+    "SOIL_Organic_Carbon_percent": 0.5533333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 200.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 15.3,
+    "SOIL_Potassium_kg_per_ha": 262.76666666666665
+  },
+  "KARNATAKA_KALABURAGI": {
+    "SOIL_Dominant_Soil_Type": "Red Sandy / Black / Laterite (coastal)",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 7.103333333333333,
+    "SOIL_Organic_Carbon_percent": 0.6333333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 197.86666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 15.9,
+    "SOIL_Potassium_kg_per_ha": 290.76666666666665
+  },
+  "KARNATAKA_MYSURU": {
+    "SOIL_Dominant_Soil_Type": "Red Sandy / Black / Laterite (coastal)",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 6.91,
+    "SOIL_Organic_Carbon_percent": 0.5066666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 204.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 15.3,
+    "SOIL_Potassium_kg_per_ha": 323.43333333333334
+  },
+  "KERALA_ERNAKULAM": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.666666666666667,
+    "SOIL_Organic_Carbon_percent": 0.9133333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 225.36666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 9.166666666666666,
+    "SOIL_Potassium_kg_per_ha": 155.4333333333333
+  },
+  "KERALA_KANNUR": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.7,
+    "SOIL_Organic_Carbon_percent": 0.7366666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 230.63333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 11.766666666666666,
+    "SOIL_Potassium_kg_per_ha": 157.6
+  },
+  "KERALA_KOZHIKODE": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.686666666666667,
+    "SOIL_Organic_Carbon_percent": 0.8700000000000001,
+    "SOIL_Nitrogen_kg_per_ha": 253.7,
+    "SOIL_Phosphorus_kg_per_ha": 9.5,
+    "SOIL_Potassium_kg_per_ha": 159.29999999999998
+  },
+  "KERALA_THIRUVANANTHAPURAM": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.136666666666667,
+    "SOIL_Organic_Carbon_percent": 0.8766666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 229.96666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 13.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 169.43333333333334
+  },
+  "KERALA_THRISSUR": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.19,
+    "SOIL_Organic_Carbon_percent": 0.8833333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 240.2,
+    "SOIL_Phosphorus_kg_per_ha": 9.8,
+    "SOIL_Potassium_kg_per_ha": 152.26666666666668
+  },
+  "KERALA_WAYANAD": {
+    "SOIL_Dominant_Soil_Type": "Laterite",
+    "SOIL_Agro_Climatic_Zone": "Western Coastal Plains",
+    "SOIL_pH": 5.343333333333334,
+    "SOIL_Organic_Carbon_percent": 0.89,
+    "SOIL_Nitrogen_kg_per_ha": 231.8,
+    "SOIL_Phosphorus_kg_per_ha": 11.9,
+    "SOIL_Potassium_kg_per_ha": 179.83333333333334
+  },
+  "MADHYA PRADESH_BHOPAL": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.333333333333333,
+    "SOIL_Organic_Carbon_percent": 0.7333333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 206.7,
+    "SOIL_Phosphorus_kg_per_ha": 18.366666666666667,
+    "SOIL_Potassium_kg_per_ha": 325.7333333333333
+  },
+  "MADHYA PRADESH_GWALIOR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.46,
+    "SOIL_Organic_Carbon_percent": 0.6,
+    "SOIL_Nitrogen_kg_per_ha": 237.2,
+    "SOIL_Phosphorus_kg_per_ha": 20.33333333333333,
+    "SOIL_Potassium_kg_per_ha": 368.9
+  },
+  "MADHYA PRADESH_INDORE": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.37,
+    "SOIL_Organic_Carbon_percent": 0.6266666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 252.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 16.366666666666667,
+    "SOIL_Potassium_kg_per_ha": 428.5333333333333
+  },
+  "MADHYA PRADESH_JABALPUR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.0633333333333335,
+    "SOIL_Organic_Carbon_percent": 0.6,
+    "SOIL_Nitrogen_kg_per_ha": 227.9,
+    "SOIL_Phosphorus_kg_per_ha": 18.766666666666666,
+    "SOIL_Potassium_kg_per_ha": 364.3
+  },
+  "MADHYA PRADESH_REWA": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.426666666666667,
+    "SOIL_Organic_Carbon_percent": 0.6466666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 234.16666666666663,
+    "SOIL_Phosphorus_kg_per_ha": 20.0,
+    "SOIL_Potassium_kg_per_ha": 371.0
+  },
+  "MADHYA PRADESH_UJJAIN": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur) / Mixed Red-Black",
+    "SOIL_Agro_Climatic_Zone": "Central Plateau & Hills",
+    "SOIL_pH": 7.3066666666666675,
+    "SOIL_Organic_Carbon_percent": 0.5466666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 248.8,
+    "SOIL_Phosphorus_kg_per_ha": 14.7,
+    "SOIL_Potassium_kg_per_ha": 409.3
+  },
+  "MAHARASHTRA_AMRAVATI": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.56,
+    "SOIL_Organic_Carbon_percent": 0.5166666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 194.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 11.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 381.6666666666667
+  },
+  "MAHARASHTRA_AURANGABAD": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.486666666666667,
+    "SOIL_Organic_Carbon_percent": 0.51,
+    "SOIL_Nitrogen_kg_per_ha": 227.5666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 11.066666666666668,
+    "SOIL_Potassium_kg_per_ha": 377.1333333333334
+  },
+  "MAHARASHTRA_JALGAON": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.536666666666666,
+    "SOIL_Organic_Carbon_percent": 0.4866666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 215.63333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 13.5,
+    "SOIL_Potassium_kg_per_ha": 463.6
+  },
+  "MAHARASHTRA_KOLHAPUR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.390000000000001,
+    "SOIL_Organic_Carbon_percent": 0.5933333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 175.23333333333335,
+    "SOIL_Phosphorus_kg_per_ha": 16.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 385.8666666666666
+  },
+  "MAHARASHTRA_NAGPUR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.753333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5566666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 192.9,
+    "SOIL_Phosphorus_kg_per_ha": 13.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 349.3
+  },
+  "MAHARASHTRA_NASHIK": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.19,
+    "SOIL_Organic_Carbon_percent": 0.5466666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 198.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 15.9,
+    "SOIL_Potassium_kg_per_ha": 360.6666666666667
+  },
+  "MAHARASHTRA_PUNE": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.3066666666666675,
+    "SOIL_Organic_Carbon_percent": 0.4566666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 210.0,
+    "SOIL_Phosphorus_kg_per_ha": 11.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 326.0
+  },
+  "MAHARASHTRA_SOLAPUR": {
+    "SOIL_Dominant_Soil_Type": "Black (Regur)",
+    "SOIL_Agro_Climatic_Zone": "Western Plateau & Hills",
+    "SOIL_pH": 7.323333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5033333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 212.0,
+    "SOIL_Phosphorus_kg_per_ha": 12.5,
+    "SOIL_Potassium_kg_per_ha": 368.1
+  },
+  "MANIPUR_CHURACHANDPUR": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic Hill Soil",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.580000000000001,
+    "SOIL_Organic_Carbon_percent": 0.9033333333333332,
+    "SOIL_Nitrogen_kg_per_ha": 240.03333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 14.366666666666667,
+    "SOIL_Potassium_kg_per_ha": 152.16666666666666
+  },
+  "MANIPUR_IMPHAL EAST": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic Hill Soil",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.54,
+    "SOIL_Organic_Carbon_percent": 1.0533333333333337,
+    "SOIL_Nitrogen_kg_per_ha": 237.1,
+    "SOIL_Phosphorus_kg_per_ha": 11.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 169.43333333333334
+  },
+  "MANIPUR_IMPHAL WEST": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic Hill Soil",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.926666666666667,
+    "SOIL_Organic_Carbon_percent": 0.71,
+    "SOIL_Nitrogen_kg_per_ha": 235.1,
+    "SOIL_Phosphorus_kg_per_ha": 12.3,
+    "SOIL_Potassium_kg_per_ha": 147.3
+  },
+  "MEGHALAYA_WEST GARO HILLS": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.396666666666667,
+    "SOIL_Organic_Carbon_percent": 0.9966666666666668,
+    "SOIL_Nitrogen_kg_per_ha": 238.0666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 12.266666666666666,
+    "SOIL_Potassium_kg_per_ha": 132.6
+  },
+  "MIZORAM_AIZAWL": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.423333333333333,
+    "SOIL_Organic_Carbon_percent": 0.8700000000000001,
+    "SOIL_Nitrogen_kg_per_ha": 208.23333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 10.7,
+    "SOIL_Potassium_kg_per_ha": 160.03333333333333
+  },
+  "MIZORAM_LUNGLEI": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.79,
+    "SOIL_Organic_Carbon_percent": 0.7166666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 214.9,
+    "SOIL_Phosphorus_kg_per_ha": 9.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 164.36666666666667
+  },
+  "NAGALAND_DIMAPUR": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.546666666666667,
+    "SOIL_Organic_Carbon_percent": 0.8733333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 217.1,
+    "SOIL_Phosphorus_kg_per_ha": 11.133333333333333,
+    "SOIL_Potassium_kg_per_ha": 125.23333333333332
+  },
+  "NAGALAND_KOHIMA": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 5.556666666666668,
+    "SOIL_Organic_Carbon_percent": 0.8233333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 220.6,
+    "SOIL_Phosphorus_kg_per_ha": 12.033333333333331,
+    "SOIL_Potassium_kg_per_ha": 160.23333333333332
+  },
+  "ODISHA_CUTTACK": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills / Coastal",
+    "SOIL_pH": 6.65,
+    "SOIL_Organic_Carbon_percent": 0.4766666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 221.4333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 13.666666666666666,
+    "SOIL_Potassium_kg_per_ha": 206.0
+  },
+  "ODISHA_GANJAM": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills / Coastal",
+    "SOIL_pH": 5.890000000000001,
+    "SOIL_Organic_Carbon_percent": 0.48,
+    "SOIL_Nitrogen_kg_per_ha": 207.4,
+    "SOIL_Phosphorus_kg_per_ha": 15.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 247.7
+  },
+  "ODISHA_PURI": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills / Coastal",
+    "SOIL_pH": 6.390000000000001,
+    "SOIL_Organic_Carbon_percent": 0.62,
+    "SOIL_Nitrogen_kg_per_ha": 196.7,
+    "SOIL_Phosphorus_kg_per_ha": 12.566666666666668,
+    "SOIL_Potassium_kg_per_ha": 237.0
+  },
+  "ODISHA_SAMBALPUR": {
+    "SOIL_Dominant_Soil_Type": "Red & Laterite / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Plateau & Hills / Coastal",
+    "SOIL_pH": 6.5633333333333335,
+    "SOIL_Organic_Carbon_percent": 0.62,
+    "SOIL_Nitrogen_kg_per_ha": 228.16666666666663,
+    "SOIL_Phosphorus_kg_per_ha": 13.633333333333336,
+    "SOIL_Potassium_kg_per_ha": 219.16666666666663
+  },
+  "PUDUCHERRY_KARAIKAL": {
+    "SOIL_Dominant_Soil_Type": "Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Southern Coastal",
+    "SOIL_pH": 7.666666666666667,
+    "SOIL_Organic_Carbon_percent": 0.45,
+    "SOIL_Nitrogen_kg_per_ha": 192.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 16.400000000000002,
+    "SOIL_Potassium_kg_per_ha": 256.56666666666666
+  },
+  "PUNJAB_AMRITSAR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.323333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5633333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 302.06666666666666,
+    "SOIL_Phosphorus_kg_per_ha": 21.96666666666667,
+    "SOIL_Potassium_kg_per_ha": 252.5666666666667
+  },
+  "PUNJAB_BATHINDA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.426666666666667,
+    "SOIL_Organic_Carbon_percent": 0.5333333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 289.1333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 17.833333333333332,
+    "SOIL_Potassium_kg_per_ha": 199.46666666666667
+  },
+  "PUNJAB_HOSHIARPUR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.936666666666667,
+    "SOIL_Organic_Carbon_percent": 0.4633333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 271.8,
+    "SOIL_Phosphorus_kg_per_ha": 16.866666666666667,
+    "SOIL_Potassium_kg_per_ha": 231.36666666666667
+  },
+  "PUNJAB_JALANDHAR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.643333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5433333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 268.40000000000003,
+    "SOIL_Phosphorus_kg_per_ha": 17.46666666666667,
+    "SOIL_Potassium_kg_per_ha": 270.1666666666667
+  },
+  "PUNJAB_LUDHIANA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.536666666666666,
+    "SOIL_Organic_Carbon_percent": 0.6066666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 259.6333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 24.8,
+    "SOIL_Potassium_kg_per_ha": 272.1
+  },
+  "PUNJAB_PATIALA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.69,
+    "SOIL_Organic_Carbon_percent": 0.5,
+    "SOIL_Nitrogen_kg_per_ha": 282.40000000000003,
+    "SOIL_Phosphorus_kg_per_ha": 21.133333333333333,
+    "SOIL_Potassium_kg_per_ha": 229.9
+  },
+  "PUNJAB_SANGRUR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Trans-Gangetic Plains",
+    "SOIL_pH": 7.956666666666666,
+    "SOIL_Organic_Carbon_percent": 0.4766666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 291.1666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 20.3,
+    "SOIL_Potassium_kg_per_ha": 222.4333333333333
+  },
+  "RAJASTHAN_AJMER": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 8.16,
+    "SOIL_Organic_Carbon_percent": 0.2766666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 140.0,
+    "SOIL_Phosphorus_kg_per_ha": 14.433333333333332,
+    "SOIL_Potassium_kg_per_ha": 229.9333333333333
+  },
+  "RAJASTHAN_ALWAR": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 7.926666666666667,
+    "SOIL_Organic_Carbon_percent": 0.2299999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 150.63333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 10.5,
+    "SOIL_Potassium_kg_per_ha": 235.63333333333333
+  },
+  "RAJASTHAN_BIKANER": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 8.290000000000001,
+    "SOIL_Organic_Carbon_percent": 0.34,
+    "SOIL_Nitrogen_kg_per_ha": 149.23333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 11.9,
+    "SOIL_Potassium_kg_per_ha": 260.06666666666666
+  },
+  "RAJASTHAN_JAIPUR": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 8.023333333333333,
+    "SOIL_Organic_Carbon_percent": 0.1999999999999999,
+    "SOIL_Nitrogen_kg_per_ha": 150.93333333333334,
+    "SOIL_Phosphorus_kg_per_ha": 14.733333333333334,
+    "SOIL_Potassium_kg_per_ha": 255.2
+  },
+  "RAJASTHAN_JODHPUR": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 8.69,
+    "SOIL_Organic_Carbon_percent": 0.31,
+    "SOIL_Nitrogen_kg_per_ha": 150.66666666666666,
+    "SOIL_Phosphorus_kg_per_ha": 13.6,
+    "SOIL_Potassium_kg_per_ha": 264.7
+  },
+  "RAJASTHAN_KOTA": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 7.936666666666666,
+    "SOIL_Organic_Carbon_percent": 0.21,
+    "SOIL_Nitrogen_kg_per_ha": 166.29999999999998,
+    "SOIL_Phosphorus_kg_per_ha": 17.533333333333335,
+    "SOIL_Potassium_kg_per_ha": 229.0
+  },
+  "RAJASTHAN_UDAIPUR": {
+    "SOIL_Dominant_Soil_Type": "Arid / Sandy",
+    "SOIL_Agro_Climatic_Zone": "Western Dry Region",
+    "SOIL_pH": 8.653333333333334,
+    "SOIL_Organic_Carbon_percent": 0.1733333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 195.6,
+    "SOIL_Phosphorus_kg_per_ha": 13.133333333333333,
+    "SOIL_Potassium_kg_per_ha": 289.1
+  },
+  "TAMIL NADU_CHENNAI": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.263333333333333,
+    "SOIL_Organic_Carbon_percent": 0.4666666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 181.36666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 19.6,
+    "SOIL_Potassium_kg_per_ha": 304.3333333333333
+  },
+  "TAMIL NADU_COIMBATORE": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.206666666666667,
+    "SOIL_Organic_Carbon_percent": 0.5666666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 229.80000000000004,
+    "SOIL_Phosphorus_kg_per_ha": 17.76666666666667,
+    "SOIL_Potassium_kg_per_ha": 306.5
+  },
+  "TAMIL NADU_ERODE": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 6.739999999999999,
+    "SOIL_Organic_Carbon_percent": 0.5133333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 220.2,
+    "SOIL_Phosphorus_kg_per_ha": 16.400000000000002,
+    "SOIL_Potassium_kg_per_ha": 323.3666666666667
+  },
+  "TAMIL NADU_MADURAI": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.609999999999999,
+    "SOIL_Organic_Carbon_percent": 0.4266666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 191.4333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 20.133333333333333,
+    "SOIL_Potassium_kg_per_ha": 277.6333333333333
+  },
+  "TAMIL NADU_SALEM": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.746666666666667,
+    "SOIL_Organic_Carbon_percent": 0.4833333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 199.9333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 17.633333333333333,
+    "SOIL_Potassium_kg_per_ha": 309.3333333333333
+  },
+  "TAMIL NADU_TIRUCHIRAPPALLI": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.686666666666666,
+    "SOIL_Organic_Carbon_percent": 0.5433333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 218.33333333333331,
+    "SOIL_Phosphorus_kg_per_ha": 13.766666666666666,
+    "SOIL_Potassium_kg_per_ha": 379.56666666666666
+  },
+  "TAMIL NADU_TIRUNELVELI": {
+    "SOIL_Dominant_Soil_Type": "Red / Black / Coastal Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern & Southern Plateau / Coastal",
+    "SOIL_pH": 7.366666666666667,
+    "SOIL_Organic_Carbon_percent": 0.5133333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 233.86666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 20.966666666666665,
+    "SOIL_Potassium_kg_per_ha": 329.8666666666666
+  },
+  "TELANGANA_KARIMNAGAR": {
+    "SOIL_Dominant_Soil_Type": "Red / Black",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 7.15,
+    "SOIL_Organic_Carbon_percent": 0.4766666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 199.4,
+    "SOIL_Phosphorus_kg_per_ha": 12.766666666666666,
+    "SOIL_Potassium_kg_per_ha": 288.1666666666667
+  },
+  "TELANGANA_KHAMMAM": {
+    "SOIL_Dominant_Soil_Type": "Red / Black",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 6.75,
+    "SOIL_Organic_Carbon_percent": 0.3866666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 212.5666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 13.266666666666666,
+    "SOIL_Potassium_kg_per_ha": 324.76666666666665
+  },
+  "TELANGANA_NIZAMABAD": {
+    "SOIL_Dominant_Soil_Type": "Red / Black",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 7.28,
+    "SOIL_Organic_Carbon_percent": 0.4766666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 222.9,
+    "SOIL_Phosphorus_kg_per_ha": 13.966666666666669,
+    "SOIL_Potassium_kg_per_ha": 256.8
+  },
+  "TELANGANA_WARANGAL": {
+    "SOIL_Dominant_Soil_Type": "Red / Black",
+    "SOIL_Agro_Climatic_Zone": "Southern Plateau & Hills",
+    "SOIL_pH": 7.18,
+    "SOIL_Organic_Carbon_percent": 0.47,
+    "SOIL_Nitrogen_kg_per_ha": 210.9,
+    "SOIL_Phosphorus_kg_per_ha": 15.4,
+    "SOIL_Potassium_kg_per_ha": 321.7
+  },
+  "TRIPURA_GOMATI": {
+    "SOIL_Dominant_Soil_Type": "Red & Lateritic / Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Eastern Himalayas",
+    "SOIL_pH": 6.183333333333334,
+    "SOIL_Organic_Carbon_percent": 0.7666666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 202.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 12.8,
+    "SOIL_Potassium_kg_per_ha": 146.36666666666667
+  },
+  "UTTAR PRADESH_AGRA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.273333333333333,
+    "SOIL_Organic_Carbon_percent": 0.51,
+    "SOIL_Nitrogen_kg_per_ha": 243.3,
+    "SOIL_Phosphorus_kg_per_ha": 16.3,
+    "SOIL_Potassium_kg_per_ha": 193.86666666666667
+  },
+  "UTTAR PRADESH_BAREILLY": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.293333333333334,
+    "SOIL_Organic_Carbon_percent": 0.64,
+    "SOIL_Nitrogen_kg_per_ha": 251.5666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 16.066666666666666,
+    "SOIL_Potassium_kg_per_ha": 184.0666666666667
+  },
+  "UTTAR PRADESH_GORAKHPUR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.323333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5166666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 258.7333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 17.566666666666666,
+    "SOIL_Potassium_kg_per_ha": 185.0
+  },
+  "UTTAR PRADESH_JHANSI": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.44,
+    "SOIL_Organic_Carbon_percent": 0.5133333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 225.73333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 15.333333333333334,
+    "SOIL_Potassium_kg_per_ha": 195.86666666666667
+  },
+  "UTTAR PRADESH_KANPUR NAGAR": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.13,
+    "SOIL_Organic_Carbon_percent": 0.5666666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 228.63333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 11.766666666666666,
+    "SOIL_Potassium_kg_per_ha": 223.73333333333332
+  },
+  "UTTAR PRADESH_LUCKNOW": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.829999999999999,
+    "SOIL_Organic_Carbon_percent": 0.65,
+    "SOIL_Nitrogen_kg_per_ha": 237.46666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 15.033333333333331,
+    "SOIL_Potassium_kg_per_ha": 181.16666666666663
+  },
+  "UTTAR PRADESH_MEERUT": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.84,
+    "SOIL_Organic_Carbon_percent": 0.51,
+    "SOIL_Nitrogen_kg_per_ha": 226.23333333333332,
+    "SOIL_Phosphorus_kg_per_ha": 11.3,
+    "SOIL_Potassium_kg_per_ha": 195.4333333333333
+  },
+  "UTTAR PRADESH_VARANASI": {
+    "SOIL_Dominant_Soil_Type": "Alluvial",
+    "SOIL_Agro_Climatic_Zone": "Upper/Middle Gangetic Plains",
+    "SOIL_pH": 7.566666666666666,
+    "SOIL_Organic_Carbon_percent": 0.5166666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 234.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 11.066666666666668,
+    "SOIL_Potassium_kg_per_ha": 159.33333333333334
+  },
+  "UTTARAKHAND_ALMORA": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Alluvial (Terai)",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.863333333333333,
+    "SOIL_Organic_Carbon_percent": 0.7266666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 232.63333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 16.099999999999998,
+    "SOIL_Potassium_kg_per_ha": 187.13333333333333
+  },
+  "UTTARAKHAND_DEHRADUN": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Alluvial (Terai)",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.283333333333334,
+    "SOIL_Organic_Carbon_percent": 0.8333333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 248.36666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 18.066666666666663,
+    "SOIL_Potassium_kg_per_ha": 190.5
+  },
+  "UTTARAKHAND_HARIDWAR": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Alluvial (Terai)",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.989999999999999,
+    "SOIL_Organic_Carbon_percent": 0.7933333333333333,
+    "SOIL_Nitrogen_kg_per_ha": 240.3,
+    "SOIL_Phosphorus_kg_per_ha": 15.6,
+    "SOIL_Potassium_kg_per_ha": 154.33333333333334
+  },
+  "UTTARAKHAND_NAINITAL": {
+    "SOIL_Dominant_Soil_Type": "Mountain / Alluvial (Terai)",
+    "SOIL_Agro_Climatic_Zone": "Western Himalayas",
+    "SOIL_pH": 6.626666666666666,
+    "SOIL_Organic_Carbon_percent": 0.6866666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 217.13333333333333,
+    "SOIL_Phosphorus_kg_per_ha": 15.333333333333334,
+    "SOIL_Potassium_kg_per_ha": 259.06666666666666
+  },
+  "WEST BENGAL_DARJEELING": {
+    "SOIL_Dominant_Soil_Type": "Alluvial / Laterite (hills)",
+    "SOIL_Agro_Climatic_Zone": "Lower Gangetic Plains",
+    "SOIL_pH": 7.116666666666667,
+    "SOIL_Organic_Carbon_percent": 0.6466666666666666,
+    "SOIL_Nitrogen_kg_per_ha": 228.76666666666665,
+    "SOIL_Phosphorus_kg_per_ha": 19.23333333333333,
+    "SOIL_Potassium_kg_per_ha": 187.9333333333333
+  },
+  "WEST BENGAL_HOWRAH": {
+    "SOIL_Dominant_Soil_Type": "Alluvial / Laterite (hills)",
+    "SOIL_Agro_Climatic_Zone": "Lower Gangetic Plains",
+    "SOIL_pH": 6.423333333333333,
+    "SOIL_Organic_Carbon_percent": 0.5666666666666667,
+    "SOIL_Nitrogen_kg_per_ha": 264.1666666666667,
+    "SOIL_Phosphorus_kg_per_ha": 20.2,
+    "SOIL_Potassium_kg_per_ha": 170.36666666666667
+  },
+  "WEST BENGAL_MURSHIDABAD": {
+    "SOIL_Dominant_Soil_Type": "Alluvial / Laterite (hills)",
+    "SOIL_Agro_Climatic_Zone": "Lower Gangetic Plains",
+    "SOIL_pH": 6.53,
+    "SOIL_Organic_Carbon_percent": 0.6833333333333332,
+    "SOIL_Nitrogen_kg_per_ha": 259.3666666666666,
+    "SOIL_Phosphorus_kg_per_ha": 17.033333333333335,
+    "SOIL_Potassium_kg_per_ha": 176.66666666666666
+  },
+  "WEST BENGAL_NADIA": {
+    "SOIL_Dominant_Soil_Type": "Alluvial / Laterite (hills)",
+    "SOIL_Agro_Climatic_Zone": "Lower Gangetic Plains",
+    "SOIL_pH": 6.62,
+    "SOIL_Organic_Carbon_percent": 0.7333333333333334,
+    "SOIL_Nitrogen_kg_per_ha": 251.30000000000004,
+    "SOIL_Phosphorus_kg_per_ha": 11.933333333333332,
+    "SOIL_Potassium_kg_per_ha": 166.1
+  }
+}

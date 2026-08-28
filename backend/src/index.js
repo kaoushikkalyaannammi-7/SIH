@@ -11,6 +11,7 @@ import rotationRoutes from './routes/rotation.js';
 import offerRoutes from './routes/offers.js';
 import profitRoutes from './routes/profit.js';
 import llmRoutes from './routes/llm.js';
+import recommendationRoutes from './routes/recommendations.js';
 
 dotenv.config();
 
@@ -48,6 +49,7 @@ app.use('/api/rotation', rotationRoutes);
 app.use('/api/offers', offerRoutes);
 app.use('/api/profit', profitRoutes);
 app.use('/api/llm', llmRoutes);
+app.use('/api/recommendations', recommendationRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

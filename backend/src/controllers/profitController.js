@@ -1,8 +1,22 @@
 import { Offer } from '../models/Offer.js';
+import axios from 'axios';
 
 export const calculateProfit = async (req, res) => {
   try {
-    const { crop, expectedYieldTonnesPerHa, areaAcres } = req.body;
+    let { crop, expectedYieldTonnesPerHa, areaAcres, state, district, season } = req.body;
+    
+    // If yield not provided but location is, fetch from ML
+    if (!expectedYieldTonnesPerHa && state && district) {
+      try {
+         const mlReq = { state, district, crop, season: season || 'Kharif' };
+         const mlResponse = await axios.post('http://localhost:5000/api/ml/predict', mlReq);
+         if (mlResponse.data && mlResponse.data.expected_yield) {
+             expectedYieldTonnesPerHa = mlResponse.data.expected_yield;
+         }
+      } catch (err) {
+         console.error('Failed to get ML yield for profit, using default');
+      }
+    }
     
     // Default values if not provided
     const yieldTonnes = expectedYieldTonnesPerHa || 3.6;
@@ -26,12 +40,17 @@ export const calculateProfit = async (req, res) => {
 
     const results = offers.map(offer => {
       // Transport cost estimation: 5 Rs per quintal per km
-      const transportCost = offer.distanceKm * 5 * totalYieldQuintals;
+      // Farm gate (vendor) = 0 transport cost
+      let transportCost = offer.distanceKm * 5 * totalYieldQuintals;
+      if (offer.channel === 'vendor' || offer.buyerType === 'vendor') {
+         transportCost = 0;
+      }
+      
       const revenue = offer.pricePerQuintal * totalYieldQuintals;
       const netProfit = revenue - inputCost - transportCost;
       
       return {
-        channel: offer.buyerType,
+        channel: offer.buyerType || offer.channel || 'unknown',
         buyerName: offer.buyerName,
         pricePerQuintal: offer.pricePerQuintal,
         distanceKm: offer.distanceKm,
